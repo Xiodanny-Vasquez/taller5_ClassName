@@ -1,0 +1,32 @@
+.profile-card {
+    background-color: #ead1f9;
+    border: 4px solid #360037;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 400px;
+    box-shadow: 0 5px 6px rgba(70, 0, 75, 0.1);
+    margin: 100px;
+    transition: transform 0.2s;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .profile-name {
+    font-size: 2rem;
+    color: #f508e5;
+    margin-bottom: 8px;
+    transition:transform 0.5;
+
+    &:hover {
+      transform: scale(1.09);
+    }
+  }
+  
+  .profile-description {
+    font-size: 1.5rem;
+    color: #111010;
+  }
